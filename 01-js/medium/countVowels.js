@@ -9,7 +9,7 @@ function countVowels(str) {
     // Your code here
     // let c = str.match(/[aeiou]/gi).length;
     // return c;
-    let vowels = [a,e,i,o,u];
+    let vowels = ['a','e','i','o','u','A','E','I','O','U'];
     let n =str.length;
     let count =0;
     for(let i of str){
